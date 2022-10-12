@@ -21,5 +21,22 @@ public class App {
 
         l[0].status();
         l[1].status();
+
+        System.out.println("\n################\n");
+
+        Car cars[] = new Car[2];
+
+        cars[0] = new Car("Ferrari", "Italia", 270.3f, 3.5f, 570);
+        cars[1] = new Car("Toyota", "Supra", 280.9f, 3.2f, 670);
+
+        cars[0].status();
+        System.out.println("#############");
+        cars[1].status();
+
+        Race r1 = new Race();
+        System.out.println("\n#############");
+        r1.markRace(cars[0], cars[1]);
+        System.out.println("#############");
+        r1.race();
     }  
 }
