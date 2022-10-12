@@ -18,7 +18,6 @@ public class App {
         UEC01.marcarLuta(l[0], l[1]);
         UEC01.lutar();
 
-
         l[0].status();
         l[1].status();
 
@@ -30,7 +29,7 @@ public class App {
         cars[1] = new Car("Toyota", "Supra", 280.9f, 3.2f, 670);
 
         cars[0].status();
-        System.out.println("#############");
+        System.out.println("\n#############\n");
         cars[1].status();
 
         Race r1 = new Race();
