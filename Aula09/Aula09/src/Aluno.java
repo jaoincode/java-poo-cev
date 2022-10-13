@@ -4,7 +4,7 @@ public class Aluno extends Pessoa{
   private int mat;
   private String curso;
 
-  // se for public final void pagarMensalidade(){...} nao ira ser possivel sobrepor o método em outras classes (isso também funciona para classes)
+  // se for public final void pagarMensalidade(){...} nao ira ser possivel sobrepor o método em outras classes (isso também funciona para classes, que nao poderao ter subclasses)
   public void pagarMensalidade() {
     System.out.println("Pagando mensalidade do aluno " + this.getNome());
   }
