@@ -56,3 +56,20 @@
 <p><b>Metodo Abstrato</b> - Declarado mas não implementado na progenitora.</p>
 <p><b>Classe Final</b> - Não pode ser herdada por outra classe. Obrigatoriamente é uma folha, sem filhos</p>
 <p><b>Metodo Final</b> - Não pode ser sobrescrito pelas suas sub-classes. Obrigatoriamente herdado</p>
+
+<hr/>
+
+#### POLIMORFISMO
+
+<p>Poli -> muitas / Morfo -> formas.</p> 
+<span>Muitas formas de fazer algo.</span>
+<p>Polimorfismo permite que um mesmo nome represente vários comportamentos diferentes, ex: Acordar, podemos acordar em horários diferentes, de formas diferentes, fazendo coisas diferentes.</p>
+
+<hr/>
+
+##### Dois tipos principais de polimorfismo
+
+<ul>
+  <li>Sobreposição -> Quando substituimos um método que veio da classe mãe diretamente na classe filha. -> Mesma assinatura, classes diferentes.</li>
+  <li>Sobrecarga -> Quando temos vários metodos, de assinaturas diferentes, assim quando for executado vai ser executado de acordo com o que for passado. -> Assinaturas diferentes na mesma classe.</li>
+</ul>
